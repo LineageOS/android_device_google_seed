@@ -371,12 +371,12 @@ vendor/lib/drm/libdrmwvmplugin.so
 vendor/lib/mediadrm/libwvdrmengine.so
 
 # GPS (crackling)
--lib/libloc_api_v02.so|83f5863162f44e391ea93e72ddc58e7c9605eb23
+-lib/libloc_api_v02.so|9eeec554a3f0bef148d4696a02f3f9d4599b40b7
 -lib/libloc_ds_api.so|3beb68f664e95c161114cb882177b93ca45b2379
 vendor/lib/hw/flp.default.so|6d0fbc257f55373274a970f7081c3504a0a5178f
 vendor/lib/libgeofence.so|b91de149da071fddb42772bb10439077d7b0b39a
 vendor/lib/libizat_core.so|bf23714f97dbe611148c592c6677ee0171d36336
-vendor/lib/liblbs_core.so|4b0f243f7ace181f2886db258e1eed438cd39863
+vendor/lib/liblbs_core.so|3b7d32ca9ce3dec791d2dc7c25585bffb0b2d3a4
 
 # Graphics firmware (seed)
 etc/firmware/a300_pfp.fw
