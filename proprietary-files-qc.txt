@@ -370,17 +370,13 @@ vendor/lib/libWVStreamControlAPI_L3.so
 vendor/lib/drm/libdrmwvmplugin.so
 vendor/lib/mediadrm/libwvdrmengine.so
 
-# GPS (seed)
-lib/hw/gps.default.so
-lib/libgps.utils.so
-lib/libloc_core.so
-lib/libloc_eng.so
--lib/libloc_api_v02.so
--lib/libloc_ds_api.so
-vendor/lib/hw/flp.default.so
-vendor/lib/libgeofence.so
-vendor/lib/libizat_core.so
-vendor/lib/liblbs_core.so
+# GPS (crackling)
+-lib/libloc_api_v02.so|83f5863162f44e391ea93e72ddc58e7c9605eb23
+-lib/libloc_ds_api.so|3beb68f664e95c161114cb882177b93ca45b2379
+vendor/lib/hw/flp.default.so|6d0fbc257f55373274a970f7081c3504a0a5178f
+vendor/lib/libgeofence.so|b91de149da071fddb42772bb10439077d7b0b39a
+vendor/lib/libizat_core.so|bf23714f97dbe611148c592c6677ee0171d36336
+vendor/lib/liblbs_core.so|4b0f243f7ace181f2886db258e1eed438cd39863
 
 # Graphics firmware (seed)
 etc/firmware/a300_pfp.fw
