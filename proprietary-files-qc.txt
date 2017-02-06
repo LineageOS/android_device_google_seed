@@ -379,10 +379,8 @@ vendor/lib/libizat_core.so|bf23714f97dbe611148c592c6677ee0171d36336
 vendor/lib/liblbs_core.so|3b7d32ca9ce3dec791d2dc7c25585bffb0b2d3a4
 
 # Graphics firmware (seed)
-etc/firmware/a300_pfp.fw
-etc/firmware/a300_pm4.fw
--vendor/firmware/a330_pfp.fw
--vendor/firmware/a330_pm4.fw
+etc/firmware/a300_pfp.fw|25aa81977303142bdc4490efad16138b
+etc/firmware/a300_pm4.fw|d657cacd951742d9bbbe74224347cffe
 
 # Media (crackling)
 lib/libOmxVdecHevc.so|560d662a6120cc23bc0db9af51230ce60d756eda
