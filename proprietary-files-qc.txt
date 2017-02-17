@@ -378,6 +378,34 @@ vendor/lib/libgeofence.so|b91de149da071fddb42772bb10439077d7b0b39a
 vendor/lib/libizat_core.so|bf23714f97dbe611148c592c6677ee0171d36336
 vendor/lib/liblbs_core.so|3b7d32ca9ce3dec791d2dc7c25585bffb0b2d3a4
 
+# Graphics
+vendor/lib/libscale.so
+vendor/lib/egl/eglsubAndroid.so
+vendor/lib/egl/eglSubDriverAndroid.so
+vendor/lib/egl/libEGL_adreno.so
+vendor/lib/egl/libESXEGL_adreno.so
+vendor/lib/egl/libESXGLESv1_CM_adreno.so
+vendor/lib/egl/libGLESv1_CM_adreno.so
+vendor/lib/egl/libESXGLESv2_adreno.so
+vendor/lib/egl/libGLESv2_adreno.so
+vendor/lib/egl/libq3dtools_adreno.so
+vendor/lib/egl/libQTapGLES.so
+vendor/lib/egl/libRBEGL_adreno.so
+vendor/lib/egl/libRBGLESv1_CM_adreno.so
+vendor/lib/egl/libRBGLESv2_adreno.so
+vendor/lib/libadreno_utils.so
+vendor/lib/libc2d30-a3xx.so
+vendor/lib/libC2D2.so
+vendor/lib/libCB.so
+vendor/lib/libgsl.so
+vendor/lib/libllvm-glnext.so
+vendor/lib/libllvm-qcom.so
+vendor/lib/libOpenCL.so
+vendor/lib/libRSDriver_adreno.so
+vendor/lib/librs_adreno.so
+vendor/lib/librs_adreno_sha1.so
+vendor/lib/libsc-a3xx.so
+
 # Graphics firmware (seed)
 etc/firmware/a300_pfp.fw|899dbfad4812084971cfc1ff30f06a4b45c2d34c
 etc/firmware/a300_pm4.fw|94529206b45b6e9f6ed30dadabe4244a88a60975
