@@ -66,6 +66,16 @@ vendor/lib/libactuator_dw9718s_olqba20_camera.so
 vendor/lib/libactuator_dw9718s_olqba20.so
 
 # Camera chromatix
+vendor/lib/libchromatix_SKUAB_ST_s5k4e1_common.so
+vendor/lib/libchromatix_SKUAB_ST_s5k4e1_default_video.so
+vendor/lib/libchromatix_SKUAB_ST_s5k4e1_hfr_120fps.so
+vendor/lib/libchromatix_SKUAB_ST_s5k4e1_hfr_60fps.so
+vendor/lib/libchromatix_SKUAB_ST_s5k4e1_hfr_90fps.so
+vendor/lib/libchromatix_SKUAB_ST_s5k4e1_liveshot.so
+vendor/lib/libchromatix_SKUAB_ST_s5k4e1_preview.so
+vendor/lib/libchromatix_SKUAB_ST_s5k4e1_snapshot.so
+vendor/lib/libchromatix_SKUAB_ST_s5k4e1_video_hd.so
+vendor/lib/libchromatix_SKUAB_ST_s5k4e1_zsl.so
 vendor/lib/libchromatix_s5k3m2_olqba20_common.so
 vendor/lib/libchromatix_s5k3m2_olqba20_default_video.so
 vendor/lib/libchromatix_s5k3m2_olqba20_hfr_120fps.so
@@ -101,6 +111,7 @@ etc/firmware/cpp_firmware_v1_2_0.fw
 etc/firmware/cpp_firmware_v1_4_0.fw
 
 # Camera sensors
+vendor/lib/libmmcamera_SKUAB_ST_s5k4e1.so
 vendor/lib/libmmcamera_s5k3m2_olqba20.so
 vendor/lib/libmmcamera_s5k4h5_cma334.so
 vendor/lib/libmmcamera_s5k5e2_olq5f19.so
