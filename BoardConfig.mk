@@ -21,5 +21,5 @@ include device/google/seed/board/*.mk
 
 TARGET_BOARD_INFO_FILE := device/google/seed/board-info.txt
 
-# inherit from the proprietary version
--include vendor/google/seed/BoardConfigVendor.mk
+# Inherit from proprietary files
+include vendor/google/seed/BoardConfigVendor.mk
