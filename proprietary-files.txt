@@ -131,13 +131,13 @@ vendor/lib/drm/libdrmwvmplugin.so
 vendor/lib/mediadrm/libwvdrmengine.so
 
 # GPS (crackling)
--lib/libloc_api_v02.so|9eeec554a3f0bef148d4696a02f3f9d4599b40b7
--lib/libloc_ds_api.so|3beb68f664e95c161114cb882177b93ca45b2379
-vendor/lib/hw/flp.default.so|6d0fbc257f55373274a970f7081c3504a0a5178f
-vendor/lib/libflp.so|aec819da2d22967c4b2c49ca55b4f3f74c4af0f8
-vendor/lib/libgeofence.so|b91de149da071fddb42772bb10439077d7b0b39a
-vendor/lib/libizat_core.so|bf23714f97dbe611148c592c6677ee0171d36336
-vendor/lib/liblbs_core.so|3b7d32ca9ce3dec791d2dc7c25585bffb0b2d3a4
+-lib/libloc_api_v02.so|74df1667c42701ef550ba73db6c5ae63542913ac
+-lib/libloc_ds_api.so|2124d2df231d1e3ccb7f22c6227f6112f4013485
+vendor/lib/hw/flp.default.so|c281157957565dc35f7e1731b2c71a71a532a821
+vendor/lib/libflp.so|776aae670ffc63b1fbe27420729ee7bd9a6fbb0e
+vendor/lib/libgeofence.so|bd34516de3c933d81267822716235c358ab6695d
+vendor/lib/libizat_core.so|8a948e4f2aa38463050c6399f04ecb38564689d6
+vendor/lib/liblbs_core.so|10caf0d54768114cd471c33a1e2dc6385d3c7707
 
 # Graphics (pinned blobs from crackling)
 vendor/lib/egl/eglsubAndroid.so
