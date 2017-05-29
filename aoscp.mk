@@ -13,15 +13,18 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+# Inherit telephony stuff
+$(call inherit-product, vendor/aoscp/configs/telephony.mk)
+
 $(call inherit-product, device/google/seed/full_seed.mk)
 
-# Inherit some common Lineage stuff.
-$(call inherit-product, vendor/cm/config/common_full_phone.mk)
+# Inherit some common AOSCP stuff.
+$(call inherit-product, vendor/aoscp/configs/common_full_phone.mk)
 
 # Must define platform variant before including any common things
 TARGET_BOARD_PLATFORM_VARIANT := msm8916
 
-PRODUCT_NAME := lineage_seed
+PRODUCT_NAME := aoscp_seed
 PRODUCT_DEVICE := seed
 PRODUCT_BRAND := google
 PRODUCT_MODEL := seed
