@@ -1,0 +1,89 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "da87b5cf_a33e02b7",
+        "filename": "init/init_seed.cpp",
+        "patchSetId": 3
+      },
+      "lineNbr": 51,
+      "author": {
+        "id": 16082
+      },
+      "writtenOn": "2017-06-15T08:48:17Z",
+      "side": 1,
+      "message": "I\u0027m not a C++ guy, but is \"1024ull\" not meant to be \"1024\" here?",
+      "revId": "4aa70856a9b416746aaeafec58d5b8c2839ad405",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da87b5cf_434b7659",
+        "filename": "init/init_seed.cpp",
+        "patchSetId": 3
+      },
+      "lineNbr": 106,
+      "author": {
+        "id": 16082
+      },
+      "writtenOn": "2017-06-15T08:48:17Z",
+      "side": 1,
+      "message": "Intentional trailing whitespace?",
+      "revId": "4aa70856a9b416746aaeafec58d5b8c2839ad405",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da87b5cf_6348fa5b",
+        "filename": "init/init_seed.cpp",
+        "patchSetId": 3
+      },
+      "lineNbr": 117,
+      "author": {
+        "id": 16082
+      },
+      "writtenOn": "2017-06-15T08:48:17Z",
+      "side": 1,
+      "message": "And here",
+      "revId": "4aa70856a9b416746aaeafec58d5b8c2839ad405",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da87b5cf_03756e97",
+        "filename": "init/init_seed.cpp",
+        "patchSetId": 3
+      },
+      "lineNbr": 128,
+      "author": {
+        "id": 16082
+      },
+      "writtenOn": "2017-06-15T08:48:17Z",
+      "side": 1,
+      "message": "And here",
+      "revId": "4aa70856a9b416746aaeafec58d5b8c2839ad405",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da87b5cf_237af288",
+        "filename": "product/qcom-radio.mk",
+        "patchSetId": 3
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 16082
+      },
+      "writtenOn": "2017-06-15T08:48:17Z",
+      "side": 1,
+      "message": "The trailing \"\\\" needs to go I think",
+      "revId": "4aa70856a9b416746aaeafec58d5b8c2839ad405",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
