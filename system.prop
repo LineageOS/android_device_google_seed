@@ -2,6 +2,8 @@
 ro.product.model.platform=1
 
 # OEM props
-import /oem/oem.prop ro.product.name
+import /oem/oem.prop persist.radio.multisim.config
+import /oem/oem.prop ro.product.device
 import /oem/oem.prop ro.product.manufacturer
 import /oem/oem.prop ro.product.model
+import /oem/oem.prop ro.product.name
