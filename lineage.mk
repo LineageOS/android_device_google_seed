@@ -21,15 +21,11 @@ $(call inherit-product, vendor/cm/config/common_full_phone.mk)
 # Must define platform variant before including any common things
 TARGET_BOARD_PLATFORM_VARIANT := msm8916
 
+TARGET_OTA_ASSERT_DEVICE := ctih220_sprout,gm4g_sprout,gm4g_s_sprout,imobileiq2_sprout,seed
+
 PRODUCT_NAME := lineage_seed
 PRODUCT_DEVICE := seed
 PRODUCT_BRAND := google
-PRODUCT_MODEL := seed
 PRODUCT_MANUFACTURER := google
 
 PRODUCT_GMS_CLIENTID_BASE := android-google
-
-PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRODUCT_NAME=seed \
-    BUILD_FINGERPRINT=google/seed_l8150/seed:7.1.1/N4F26W/3815918:user/release-keys \
-    PRIVATE_BUILD_DESC="seed_l8150-user 7.1.1 N4F26W 3815918 release-keys"
