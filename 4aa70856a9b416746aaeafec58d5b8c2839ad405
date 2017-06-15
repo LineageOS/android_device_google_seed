@@ -36,6 +36,24 @@
     },
     {
       "key": {
+        "uuid": "da87b5cf_23a192f8",
+        "filename": "init/init_seed.cpp",
+        "patchSetId": 3
+      },
+      "lineNbr": 106,
+      "author": {
+        "id": 13728
+      },
+      "writtenOn": "2017-06-15T09:17:17Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "da87b5cf_434b7659",
+      "revId": "4aa70856a9b416746aaeafec58d5b8c2839ad405",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "da87b5cf_6348fa5b",
         "filename": "init/init_seed.cpp",
         "patchSetId": 3
@@ -47,6 +65,24 @@
       "writtenOn": "2017-06-15T08:48:17Z",
       "side": 1,
       "message": "And here",
+      "revId": "4aa70856a9b416746aaeafec58d5b8c2839ad405",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da87b5cf_c3a54605",
+        "filename": "init/init_seed.cpp",
+        "patchSetId": 3
+      },
+      "lineNbr": 117,
+      "author": {
+        "id": 13728
+      },
+      "writtenOn": "2017-06-15T09:17:17Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "da87b5cf_6348fa5b",
       "revId": "4aa70856a9b416746aaeafec58d5b8c2839ad405",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
@@ -70,6 +106,24 @@
     },
     {
       "key": {
+        "uuid": "da87b5cf_e3aacad3",
+        "filename": "init/init_seed.cpp",
+        "patchSetId": 3
+      },
+      "lineNbr": 128,
+      "author": {
+        "id": 13728
+      },
+      "writtenOn": "2017-06-15T09:17:17Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "da87b5cf_03756e97",
+      "revId": "4aa70856a9b416746aaeafec58d5b8c2839ad405",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "da87b5cf_237af288",
         "filename": "product/qcom-radio.mk",
         "patchSetId": 3
@@ -81,6 +135,24 @@
       "writtenOn": "2017-06-15T08:48:17Z",
       "side": 1,
       "message": "The trailing \"\\\" needs to go I think",
+      "revId": "4aa70856a9b416746aaeafec58d5b8c2839ad405",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da87b5cf_039c8ebf",
+        "filename": "product/qcom-radio.mk",
+        "patchSetId": 3
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 13728
+      },
+      "writtenOn": "2017-06-15T09:17:17Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "da87b5cf_237af288",
       "revId": "4aa70856a9b416746aaeafec58d5b8c2839ad405",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
