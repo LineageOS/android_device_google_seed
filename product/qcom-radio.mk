@@ -1,11 +1,9 @@
 # Properties
 PRODUCT_PROPERTY_OVERRIDES += \
-    persist.radio.multisim.config=dsds \
     persist.radio.custom_ecc=1 \
     persist.radio.ecc_hard_1=998 \
     persist.radio.ecc_hard_count=1 \
-    rild.libpath=/system/vendor/lib/libril-qc-qmi-1.so \
-    ro.telephony.default_network=9,9
+    rild.libpath=/system/vendor/lib/libril-qc-qmi-1.so
 
 # RIL
 ifeq ($(QCPATH),)
