@@ -4,6 +4,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.radio.custom_ecc=1 \
     persist.radio.ecc_hard_1=998 \
     persist.radio.ecc_hard_count=1 \
+    persist.sys.ssr.restart_level=modem \
     rild.libpath=/system/vendor/lib/libril-qc-qmi-1.so \
     ro.telephony.default_network=9,9
 
