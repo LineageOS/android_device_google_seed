@@ -90,14 +90,14 @@ void init_target_properties()
     std::string device = property_get("ro.product.device");
 
     if (device == "ctih220_sprout") {
-        property_set("ro.build.fingerprint", "google/ctih220/ctih220_sprout:7.1.1/N0F27E/4103848:user/release-keys");
+        property_override("ro.build.fingerprint", "google/ctih220/ctih220_sprout:7.1.1/N0F27E/4103848:user/release-keys");
     } else if (device == "imobileiq2_sprout") {
-        property_set("ro.build.fingerprint", "google/imobileiq2/imobileiq2_sprout:7.1.1/N0F27E/4103848:user/release-keys");
+        property_override("ro.build.fingerprint", "google/imobileiq2/imobileiq2_sprout:7.1.1/N0F27E/4103848:user/release-keys");
     } else if (device == "gm4g_sprout") {
-        property_set("ro.build.fingerprint", "google/gm4g/gm4g_sprout:7.1.1/N0F27E/4103848:user/release-keys");
+        property_override("ro.build.fingerprint", "google/gm4g/gm4g_sprout:7.1.1/N0F27E/4103848:user/release-keys");
     } else if (device == "gm4g_s_sprout") {
-        property_set("ro.build.fingerprint", "google/gm4g_s/gm4g_s_sprout:7.1.1/N0F27E/4103848:user/release-keys");
+        property_override("ro.build.fingerprint", "google/gm4g_s/gm4g_s_sprout:7.1.1/N0F27E/4103848:user/release-keys");
     }
 
-    property_set("ro.build.description", "seed_l8150-user 7.1.1 N0F27E 4103848 release-keys");
+    property_override("ro.build.description", "seed_l8150-user 7.1.1 N0F27E 4103848 release-keys");
 }
