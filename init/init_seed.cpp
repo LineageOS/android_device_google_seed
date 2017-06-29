@@ -87,15 +87,19 @@ void init_target_properties()
     property_set("dalvik.vm.heapminfree", heapminfree);
     property_set("dalvik.vm.heapmaxfree", "8m");
 
-    std::string device = property_get("ro.product.device");
+    std::string name = property_get("ro.product.name");
 
-    if (device == "ctih220_sprout") {
+    if (name == "ctih220") {
+        property_override("ro.product.device", "ctih220_sprout");
         property_override("ro.build.fingerprint", "google/ctih220/ctih220_sprout:7.1.1/N0F27E/4103848:user/release-keys");
-    } else if (device == "imobileiq2_sprout") {
+    } else if (name == "imobileiq2") {
+        property_override("ro.product.device", "imobileiq2_sprout");
         property_override("ro.build.fingerprint", "google/imobileiq2/imobileiq2_sprout:7.1.1/N0F27E/4103848:user/release-keys");
-    } else if (device == "gm4g_sprout") {
+    } else if (name == "gm4g") {
+        property_override("ro.product.device", "gm4g_sprout");
         property_override("ro.build.fingerprint", "google/gm4g/gm4g_sprout:7.1.1/N0F27E/4103848:user/release-keys");
-    } else if (device == "gm4g_s_sprout") {
+    } else if (name == "gm4g_s") {
+        property_override("ro.product.device", "gm4g_s_sprout");
         property_override("ro.build.fingerprint", "google/gm4g_s/gm4g_s_sprout:7.1.1/N0F27E/4103848:user/release-keys");
     }
 
