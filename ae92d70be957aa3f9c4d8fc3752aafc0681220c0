@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "da87b5cf_7fd5cfb7",
+        "filename": "init/init_seed.cpp",
+        "patchSetId": 4
+      },
+      "lineNbr": 102,
+      "author": {
+        "id": 15284
+      },
+      "writtenOn": "2017-06-30T13:56:38Z",
+      "side": 1,
+      "message": "typo",
+      "range": {
+        "startLine": 102,
+        "startChar": 96,
+        "endLine": 102,
+        "endChar": 97
+      },
+      "revId": "ae92d70be957aa3f9c4d8fc3752aafc0681220c0",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
