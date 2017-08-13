@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "f7238fd8_0cce818e",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 13728
+      },
+      "writtenOn": "2017-08-13T08:01:01Z",
+      "side": 1,
+      "message": "Can you be more specific about which mobile data issue this fixes? Please mention the exact issue so we can have a more helpful commit message.",
+      "revId": "243100545c20859fc96f9ef4748880ea723a75e8",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
