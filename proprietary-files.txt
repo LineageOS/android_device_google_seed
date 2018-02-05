@@ -169,8 +169,8 @@ vendor/lib/libsc-a3xx.so|a03fc9f0c929cb4adf013f8a463cfbef68d48090
 vendor/lib/libscale.so|972cbd87794b4ce0a5c23db946acbafd4cd6d073
 
 # Graphics firmware
-vendor/firmware/a300_pfp.fw:etc/firmware/a300_pfp.fw
-vendor/firmware/a300_pm4.fw:etc/firmware/a300_pm4.fw
+etc/firmware/a300_pfp.fw
+etc/firmware/a300_pm4.fw
 
 # Media (crackling)
 lib/libOmxVdecHevc.so|560d662a6120cc23bc0db9af51230ce60d756eda
