@@ -53,21 +53,12 @@
     <!-- Is the notification LED intrusive? Used to decide if there should be a disable option -->
     <bool name="config_intrusiveNotificationLed">true</bool>
 
-    <!-- Is the battery LED intrusive? Used to decide if there should be a disable option -->
-    <bool name="config_intrusiveBatteryLed">true</bool>
-
     <!-- Default color for notification LED is blue. -->
     <color name="config_defaultNotificationColor">#ff00ffff</color>
-
-    <integer name="config_deviceHardwareKeys">64</integer>
 
     <bool name="config_allowAllRotations">true</bool>
 
     <bool name="config_eap_sim_based_auth_supported">false</bool>
-
-    <!-- Whether a software navigation bar should be shown. NOTE: in the future this may be
-                  autodetected from the Configuration. -->
-    <bool name="config_showNavigationBar">true</bool>
 
     <!-- Vibrator pattern for feedback about a long screen/key press -->
     <integer-array name="config_longPressVibePattern">
@@ -91,13 +82,14 @@
     <!-- Default list of files pinned by the Pinner Service -->
     <string-array translatable="false" name="config_defaultPinnerServiceFiles">
         <item>"/system/framework/arm/boot-framework.oat"</item>
+        <item>"/system/framework/arm/boot-framework.vdex"</item>
         <item>"/system/framework/oat/arm/services.odex"</item>
+        <item>"/system/framework/oat/arm/services.vdex"</item>
         <item>"/system/framework/arm/boot.oat"</item>
+        <item>"/system/framework/arm/boot.vdex"</item>
         <item>"/system/framework/arm/boot-core-libart.oat"</item>
+        <item>"/system/framework/arm/boot-core-libart.vdex"</item>
         <item>"/data/dalvik-cache/arm/system@framework@boot.oat"</item>
         <item>"/data/dalvik-cache/arm/system@framework@services.jar@classes.dex"</item>
    </string-array>
-
-    <!-- Configuration to support SIM contact batch operation.-->
-    <bool name="config_sim_phonebook_batch_operation">false</bool>
 </resources>

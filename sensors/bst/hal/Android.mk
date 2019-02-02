@@ -37,6 +37,8 @@ endif
 
 LOCAL_MODULE_TAGS := optional
 
+LOCAL_VENDOR_MODULE := true
+
 LOCAL_CFLAGS :=\
 	-D LOG_TAG=\"bsthal\"\
 	-Wall
@@ -53,8 +55,7 @@ LOCAL_SRC_FILES :=\
 
 LOCAL_C_INCLUDES = $(LOCAL_PATH)/../version
 
-#LOCAL_SHARED_LIBRARIES := liblog libcutils
-LOCAL_SHARED_LIBRARIES := libcutils
+LOCAL_SHARED_LIBRARIES := liblog libcutils
 LOCAL_PRELINK_MODULE := false
 
 include $(LOCAL_PATH)/../tools/l8150_config.mk

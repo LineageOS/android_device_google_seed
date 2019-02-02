@@ -38,15 +38,11 @@ on boot
     chmod 0664 /sys/class/power_supply/bms/current_now
     chmod 0664 /sys/class/power_supply/bms/voltage_ocv
 
-    # Notification LED
-    chown system system /sys/class/leds/red/blink
-    chown system system /sys/class/leds/green/blink
-    chown system system /sys/class/leds/blue/blink
-    chown system system /sys/class/leds/red/led_time
-    chown system system /sys/class/leds/green/led_time
-    chown system system /sys/class/leds/blue/led_time
+on post-fs-data
+    mkdir /data/misc/sensor 0775 system system
+    restorecon_recursive /data/misc/sensor
 
-service vm_bms /system/bin/vm_bms
+service vm_bms /system/vendor/bin/vm_bms
     class core
     user root
     group root
@@ -60,14 +56,14 @@ on charger
    chmod 0664 /sys/class/power_supply/bms/voltage_ocv
    start vm_bms
 
-service sensord /system/bin/sensord
+service sensord /system/vendor/bin/sensord
     class main
     user root
 
 on property:init.svc.zygote=restarting
     restart sensord
 
-service calibacc /system/bin/accelcal
+service calibacc /system/vendor/bin/accelcal
     class main
     oneshot
     disabled
